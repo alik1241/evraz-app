@@ -1,0 +1,45 @@
+.App-logo {
+  height: 100%;
+  width: 140px;
+  pointer-events: none;
+  left: 30px;
+}
+
+.App-header {
+  background-color: #fff;
+}
+
+.header__menu {
+  color: #000;
+}
+
+.header__menu-buttons {
+  left: 200px;
+  position: absolute;
+  top: 10px;
+  width: auto;
+}
+
+@media only screen and (max-width: 993px) {
+  .header__menu-buttons {
+    left: 20px;
+  }
+}
+
+.active {
+  color: #555;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: #777;
+}
+
+.tabs .indicator {
+  background-color: #f57f29;
+  color: #777;
+}
+
+.tabs .tab a {
+  color: #777;
+  font-weight: 500;
+}

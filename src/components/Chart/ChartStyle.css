@@ -1,0 +1,60 @@
+.chart__title-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.chart__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .chart__title {
+    font-size: 17px;
+  }
+}
+
+.chart__select .input-field.col {
+  width: 150px;
+}
+
+.chart__select input {
+  margin: 0 !important;
+  height: 30px !important;
+}
+
+.input-field.col {
+  margin: 0 !important;
+}
+
+.chart__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.chart__info-item {
+
+}
+
+.pass {
+  color: #28af3c;
+}
+
+.err {
+  color: #c71a33;
+}
+
+.subtitle {
+  color: #777777 !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+}

@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background: #eee;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*
+ Чтобы работали иконки
+ аналог <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> в public/index.html
+ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.app__content {
+  padding: 0 30px;
+  min-height: calc(100vh - 64px);
+}
+
+.card-content {
+  padding: 15px !important;
+  /*min-width: 300px;*/
+}
+
+.card {
+  margin-bottom: 0 !important;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.row:last-child {
+  padding-bottom: 30px;
+}

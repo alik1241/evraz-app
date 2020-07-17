@@ -1,0 +1,45 @@
+.button__ok {
+  background: #eee;
+  width: 100px;
+  color: #000;
+}
+
+.button__ok:hover {
+  background: #aaa;
+}
+
+.button__ok:focus {
+  background: #888;
+  color: #fff;
+}
+
+.message__wrap {
+  background: #ffdbe2;
+}
+
+.message__icon {
+  color: #c71a33;
+  margin-right: 24px;
+}
+
+.message__title {
+  display: flex;
+  justify-content: space-between;
+  color: #525252;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.message__title_left {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.message__text {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.message__bt-block {
+  text-align: right;
+}

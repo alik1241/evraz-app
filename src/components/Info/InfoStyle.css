@@ -1,0 +1,38 @@
+.info__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__left-side {
+  text-align: left;
+}
+
+.info__badge {
+  background-color: #ff6257;
+  border-radius: 3px;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.info__label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.info__left-side .title1 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.info__left-side .title2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.info__range {
+  margin-top: 40px;
+}
+
+.info__card {
+  margin-bottom: 15px !important;
+}

@@ -1,0 +1,54 @@
+.table__wrap {
+  background: #fff;
+  padding: 15px;
+}
+
+.table__title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .table__title {
+    font-size: 17px;
+    margin-bottom: 23px;
+  }
+}
+
+.table__main thead tr {
+  border-bottom-color: #000;
+}
+
+.table__main thead tr th {
+  position: relative;
+}
+
+.table__head-label {
+  /*position: absolute;*/
+  /*top: -10px;*/
+  font-size: 13px;
+  font-weight: 400;
+  color: #888;
+  min-width: 100px;
+  /*left: 24px;*/
+}
+
+.table__main tbody tr:last-child {
+  border: none;
+}
+
+.table__main tr td {
+  padding: 12px 5px;
+  text-align: center;
+}
+
+.table__main tr th {
+  /*padding: 4px 5px;*/
+  text-align: center;
+}
+
+.table__main tr td:first-child, .table__main tr th:first-child {
+  text-align: left;
+}
